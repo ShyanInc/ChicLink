@@ -1,7 +1,3 @@
 export default function Home() {
-    return (
-        <main className=" flex flex-col items-center justify-between">
-
-        </main>
-    );
+    return <h1>This is a landing page</h1>
 }

@@ -15,7 +15,7 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="en">
-            <body className={'min-h-screen flex flex-col bg-no-repeat bg-cover bg-bg_image '}>
+            <body className={'min-h-screen flex flex-col bg-no-repeat bg-cover bg-bg_image'}>
                 <Header />
                 {children}
                 <Footer />

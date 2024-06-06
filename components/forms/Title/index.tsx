@@ -4,8 +4,10 @@ import { FC } from 'react'
 
 interface TitleProps {
     text: string
+    color: 'black' | 'white'
 }
 
-export const FormTitle: FC<TitleProps> = ({ text }) => {
-    return <p className={'text-white text-center text-3xl'}>{text && text}</p>
+
+export const FormTitle: FC<TitleProps> = ({ text, color }) => {
+    return <p className={`text-${color} text-center text-3xl`}>{text && text}</p>
 }

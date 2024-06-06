@@ -1,7 +1,7 @@
 import { FC } from 'react'
 
-interface InputProps {
-    type: 'email' | 'text' | 'password'
+export interface InputProps {
+    type: 'email' | 'text' | 'password' | 'tel'
     placeholder: string
     label?: string
     id?: string

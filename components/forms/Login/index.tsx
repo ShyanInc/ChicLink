@@ -4,7 +4,7 @@ import { FormTitle } from '@/components/forms/Title'
 const LoginForm = () => {
     return (
         <div className={'flex flex-col py-8 px-4 bg-black border border-[#F2F99C] rounded-2xl'}>
-            <FormTitle text={'Sign In'} />
+            <FormTitle text={'Sign In'} color={'white'} />
             <form className={'flex flex-col gap-4'}>
                 <CustomInput type="email" id="email" label="Email" placeholder="Email" />
                 <CustomInput
